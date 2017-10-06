@@ -1,0 +1,35 @@
+{
+  "name": "hive-api",
+  "version": "1.0.0",
+  "description": "The API for Hive Gaming Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urban-knight/hive-api.git"
+  },
+  "keywords": [
+    "hive",
+    "gaming",
+    "api"
+  ],
+  "author": "Hive Dev Team",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/urban-knight/hive-api/issues"
+  },
+  "homepage": "https://github.com/urban-knight/hive-api#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.1",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.12.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0",
+    "save": "^2.3.1"
+  }
+}
